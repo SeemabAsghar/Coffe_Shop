@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace LAB_09
 {
     public partial class OrderForm : Form
@@ -56,6 +57,11 @@ namespace LAB_09
             if (sandwichSelected)
                 total += sandwichPrice;
             return total;
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

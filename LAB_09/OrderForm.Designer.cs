@@ -95,11 +95,12 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Georgia", 16F);
-            this.label3.Location = new System.Drawing.Point(229, 50);
+            this.label3.Location = new System.Drawing.Point(192, 49);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(100, 38);
+            this.label3.Size = new System.Drawing.Size(170, 38);
             this.label3.TabIndex = 5;
-            this.label3.Text = "Order";
+            this.label3.Text = "Coffe Shop";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // checkBox1
             // 
